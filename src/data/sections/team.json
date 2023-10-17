@@ -1,0 +1,60 @@
+{
+    "teams": [
+        {
+            "id": 1,
+            "image": "/img/team/1.jpg",
+            "title": "Stephanie Lawrence",
+            "sub": "CEO, Colabrio Media"
+        },
+        {
+            "id": 2,
+            "image": "/img/team/2.jpg",
+            "title": "Alex Regelman",
+            "sub": "CEO, Colabrio Media"
+        },
+        {
+            "id": 3,
+            "image": "/img/team/3.jpg",
+            "title": "Stacey Stamper",
+            "sub": "CEO, Colabrio Media"
+        },
+        {
+            "id": 4,
+            "image": "/img/team/4.jpg",
+            "title": "Stephanie Lawrence",
+            "sub": "CEO, Colabrio Media"
+        }
+    ],
+    "skills": [
+        {
+            "id": 1,
+            "text": "Test d'intrusion",
+            "value": "90%"
+        },
+        {
+            "id": 2,
+            "text": "ANALYSES DE RISQUES",
+            "value": "86%"
+        },
+        {
+            "id": 1,
+            "text": "NORMES DE CYBERSÉCURITÉ",
+            "value": "75%"
+        },
+        {
+            "id": 1,
+            "text": "CRYPTANALYSE",
+            "value": "59%"
+        },
+        {
+            "id": 2,
+            "text": "DEV & WEB SECURITY",
+            "value": "68%"
+        },
+        {
+            "id": 2,
+            "text": "DROIT DE LA CYBER",
+            "value": "47%"
+        }
+    ]
+}

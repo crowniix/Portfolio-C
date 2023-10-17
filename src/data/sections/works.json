@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": " Certifications & Formations",
+    "secTex": "Ine Certified Cloud Associate",
+    "image": "/img/portfolio/metro/ICCA-INE-Certified-Cloud-Associate.png",
+    "slug": "/project-details2/project-details2-dark"
+  },
+  {
+    "id": 2,
+    "title": "Certifications & Formations",
+    "secTex": "Junior Penetration Tester",
+    "image": "/img/portfolio/metro/THM-EJPTV.png",
+    "slug": "/project-details2/project-details2-dark"
+  },
+  {
+    "id": 3,
+    "title": "Certifications & Formations",
+    "secTex": "Iso-27001 Lead Auditor PECB",
+    "image": "/img/portfolio/metro/iso-LA.png",
+    "slug": "/project-details2/project-details2-dark"
+  },
+  {
+    "id": 4,
+    "title": "Certifications & Formations",
+    "secTex": "TryHackMe Junior Pentester",
+    "image": "/img/portfolio/metro/THM-JR.png",
+    "slug": "/project-details2/project-details2-dark"
+  },
+  {
+    "id": 5,
+    "title": "Certifications & Formations",
+    "secTex": "Iso-27007 Foundation PECB",
+    "image": "/img/portfolio/metro/iso-foundation.png",
+    "slug": "/project-details2/project-details2-dark"
+  },
+  {
+    "id": 6,
+    "title": "Certifications & Formations",
+    "secTex": "RGPD",
+    "image": "/img/portfolio/metro/Certificat_RGPD_2.png",
+    "slug": "/project-details2/project-details2-dark"
+  }
+]
