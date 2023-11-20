@@ -1,8 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Link from "next/link";
+import { useRouter } from "next/router";
+import en from "../../locales/en.json";
+import fr from "../../locales/fr.json";
 
 const Intro3 = () => {
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === "en" ? en : fr;
+
+    
     return (
         <header className="slider-stwo valign position-re" id="Aboutme">
             <div className="container">
@@ -14,7 +21,7 @@ const Intro3 = () => {
                                 href="#contact-form"
                                 className="butn bord curve mt-30 text-center w-100"
                             >
-                                Download CV
+                                {t["Download-CV"]}
                             </a>
                         </div>
                     </div>
@@ -27,8 +34,7 @@ const Intro3 = () => {
                             whoami
                             </h1>
                             <p>
-                                De ma fascination pour les jeux vidéo à la maîtrise des lignes de code, ma passion pour la technologie m&apos;a conduit vers une carrière où je protège désormais les secrets numériques. 
-                                je suis également compétent en :
+                                {t.whoami}
                             </p>
                             <ul className="row">
                                 <li className="col-6 mb-3">
@@ -67,7 +73,7 @@ const Intro3 = () => {
                                     <div className="cont">
                                         
                                     <p  style={{color : "white"}} >
-                                         Conformité et réglementation
+                                        {t["Compliance-and-regulations"]}
                                         </p>
                                     </div>
                                 </li>
@@ -80,7 +86,7 @@ const Intro3 = () => {
                                     <div className="cont">
                                         
                                         <p  style={{color : "white"}} >
-                                            Audit de vulnérabilité & Pentest
+                                            {t["Vulnerability-audit-and-Pentest"]}
                                         </p>
                                     </div>
                                 </li>

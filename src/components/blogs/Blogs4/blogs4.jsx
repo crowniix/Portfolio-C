@@ -1,7 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Link from "next/link";
+import { useRouter } from "next/router";
+import en from "../../../locales/en.json";
+import fr from "../../../locales/fr.json";
+
 import SwiperCore, {
   Navigation,
   Pagination,
@@ -16,9 +19,11 @@ import "swiper/css/effect-fade";
 import { thumparallax } from "../../../common/thumparallax";
 import removeSlashFromPagination from "../../../common/removeSlashpagination";
 
+
 SwiperCore.use([Navigation, Pagination, Parallax, EffectFade]);
 
 const Blogs4 = () => {
+
   const [load, setLoad] = React.useState(true);
   React.useEffect(() => {
     setTimeout(() => {
@@ -32,11 +37,21 @@ const Blogs4 = () => {
   const navigationNextRef = React.useRef(null);
   const paginationRef = React.useRef(null);
 
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "en" ? en : fr;
+
   return (
     <section className="blog-crv sub-bg" id="Project">
       <h2 style={{ display: "none" }}>&nbsp;</h2>
       <div className="stories">
+      <div className=" text-center">
+                <h6 className="wow fadeIn pt-4" data-wow-delay=".5s">
+                My_Proj3ct.exe
+                </h6>
+            </div>
         <div className="container-fluid">
+          
           <div className="row">
             <div className="col-lg-6 no-padding">
               {!load ? (
@@ -231,34 +246,31 @@ const Blogs4 = () => {
                     <div className="item wow fadeIn" data-wow-delay=".6s">
                       <div className=" content" style={{ textAlign : "left"}}>
                         <h5 className="wow color-font" >
-                        Application de sécurité 
+                            {t["Title-1-Projects-1"]}
                           </h5>
                         <div className="info">
                           
                         <h3>
-                        Application d&apos;E-mail Tracking 
+                        {t["Title-2-Projects-1"]}
                           </h3>
                         </div>
                         <div className="title">
                           <h5>
-                              Conception & Développement <span className="wow color-font">(en cours)</span>
+                          {t["Title-3-Projects-1"]}<span className="wow color-font">  {t["Title-3.1-Projects-1"]}</span>
                           </h5>
                         </div>
                         <div className="text" >
                           <p>
-                          Cet outil de suivi des e-mails ajoutent une image invisible d&apos;un pixel à l&apos;intérieur du mail envoyé. 
-                           Cette image pixel est chargée lorsque le destinataire ouvre les e-mails, ce qui permet de savoir quand celui-ci est ouvert 
-                           et plein d&apos;autres informations peuvent être collectées lors du chargement de l&apos;image.
+                          {t["p1-Projects-1"]}
 
                            <br /><br />
-                            <span style={{color :"white"}}>L&apos;information fournit : </span>
+                            <span style={{color :"white"}}> {t["p2-Projects-1"]} </span>
 
                             <br /> <br />
-                            • Notification de la réception et de l&apos;ouverture du mail à une date et heure précise. <br />
-                            • L&apos;adresse ip et la localisation du destinataire du mail.  <br />
-                            • La version du navigateur. <br />
-                            • Le système et le navigateur. <br />
-                            • Moteur de rendu du navigateur.
+                            {t["p3-Projects-1"]} <br />
+                            {t["p4-Projects-1"]}  <br />
+                            {t["p6-Projects-1"]} <br />
+                            {t["p7-Projects-1"]}
                           </p>
                         </div>
                         
@@ -269,38 +281,35 @@ const Blogs4 = () => {
                   <div className="item wow fadeIn" data-wow-delay=".6s">
                       <div className=" content" style={{ textAlign : "left"}}>
                         <h5 className="wow color-font" >
-                        Outil d&apos;évaluation
+                        {t["Title-1-Projects-2"]}
                           </h5>
                         <div className="info">
                           
                         <h3>
-                        Maturité de la sécurité <br /> d&apos;un Système d&apos;information
+                        {t["Title-2-Projects-2"]} <br /> {t["Title-3-Projects-2"]}
                           </h3>
                         </div>
                         <div className="title">
                           <h5>
-                          Conception & Développement
+                          {t["Title-4-Projects-2"]}
                           </h5>
                         </div>
                         <div className="text" >
                           <p>
-                          L&apos;outil consiste à évaluer la maturité d&apos;un SI, en terme de sécurité, au regard de référentiels des bonnes pratiques reconnues (ISO 27001,
-                                                     ISO 27005, NIST, Guide d&apos;hygiène de l&apos;ANSSI). Cette démarche a pour enjeux de lutter contre la cyber-criminalité, 
-                                                     de respecter les cadres réglementaires français et européens, d&apos;affirmer la conformité du Groupe et 
-                                                     de renforcer la confiance et la satisfaction des clients, enjeu majeur pour le client.
+                          {t["p1-Projects-2"]}
 
 
                                                     
                                                      
                                                      <br />
                                                <br />
-                                               <span style={{color :"white"}}>  il contient : </span>
+                                               <span style={{color :"white"}}>    {t["p2-Projects-2"]} </span>
 
                                                <br /> <br />
-                                                • Évaluation de la maturité selon 5 niveaux biens définis. <br />
-                                                • L&apos;évaluation s&apos;oppere sur le CIS Critical Security Controls et le guide d&apos;hygiène de l&apos;ANSSI. <br />
-                                                • Représentation des données globale sur la maturité d&apos;un SI sous différentes formes (radar, sous secteur, etc...). <br />
-                                                • Un rendu visible et instantannée du niveau de maturité du Système d&apos;information.
+                                               {t["p3-Projects-2"]} <br />
+                                               {t["p4-Projects-2"]} <br />
+                                               {t["p5-Projects-2"]} <br />
+                                               {t["p6-Projects-2"]}
                                                 </p>
                         </div>
                         
@@ -328,7 +337,7 @@ const Blogs4 = () => {
                           <p>
                           Retro-ingénierie <br />
 
-                          La retro-ingénierie va permettre de tracer l&apos;exécution du programme et de changer certaines variables et le fonctionnement initial du logiciel. <br /> <br />
+                          La retro-ingénierie va permettre de tracer l'exécution du programme et de changer certaines variables ainsi que le fonctionnement initial du logiciel. <br /> <br />
                           •  Réalisation de plusieurs exercices et CTF de Retro-ingénierie. <br /> 
                           •  Maitrise des outils de Retro-ingénierie :  <br />
                           GDB : GNU Debugger <br />
@@ -337,8 +346,8 @@ const Blogs4 = () => {
                           IDA : <a  className="wow color-font"href="www.hex-rays.com/products/ida">www.hex-rays.com/products/ida</a> <br />
                           • Analyse statique de programmes. <br /> <br />
 
-                          j&apos;ai étudié le comportement des programmes exemples, pour y déceler des bugs ou des failles potentiels. <br />
-                          L&apos;analyseur PMD : <a className="wow color-font" href="www.pmd.github.io/ ">www.pmd.github.io</a> <br />
+                          j'ai étudié le comportement des programmes exemples, pour y déceler des bugs ou des failles potentiels. <br />
+                          L'analyseur PMD : <a className="wow color-font" href="www.pmd.github.io/ ">www.pmd.github.io</a> <br />
                           <span >SpotBugs : <a className="wow color-font" href="www.spotbugs.github.io">www.spotbugs.github.io</a></span>  <br />
                           </p>
                         </div>
@@ -355,7 +364,7 @@ const Blogs4 = () => {
                         <div className="info">
                           
                         <h3>
-                        Test d&apos;intrusion <br /> et entrainement de la sécurité Web.
+                        Test d'intrusion <br /> et entrainement de la sécurité Web.
                           </h3>
                         </div>
                         <div className="title">
@@ -365,10 +374,10 @@ const Blogs4 = () => {
                         </div>
                         <div className="text" >
                           <p>
-                          WebGoat est une application Web délibérément non sécurisée maintenue par l&apos; OWASP conçue pour s&apos;entrainer sur des notions de sécurité 
+                          WebGoat est une application Web délibérément non sécurisée maintenue par l'OWASP et conçue pour s'entrainer sur des notions de sécurité 
                            des applications Web.
 
-                            Ce programme est une démonstration des failles courantes des applications orientées serveur. Les exercices sont destinés à être utilisés par des personnes pour en savoir plus sur la 
+                            Ce programme est une démonstration des failles courantes des applications orientées web & serveur. Les exercices sont destinés à être utilisés par des personnes pour en savoir plus sur la 
                            sécurité des applications et les techniques de test de pénétration.
 
                                                      
@@ -378,8 +387,8 @@ const Blogs4 = () => {
 
                                                 <br /><br />
                            • Broken Access Control • Échecs cryptographiques • Injection • Conception non sécurisée • Mauvaise configuration de la sécurité •
-                            Composants vulnérables et obsolètes • Échecs d&apos;identification et d&apos;authentification • Échecs de l&apos;intégrité des logiciels et des données
-                            • Échecs de journalisation et de surveillance de la sécurité • Faux demande côté serveur <br />
+                            Composants vulnérables et obsolètes • Échecs d'identification et d'authentification • Échecs de l'intégrité des logiciels et des données
+                            • Échecs de journalisation et de surveillance de la sécurité • Fausse demande côté serveur. <br />
                           </p>
                         </div>
                         
@@ -406,7 +415,7 @@ const Blogs4 = () => {
                         <div className="text" >
                           <p>
                          
-                          Cette application a pour but d&apos;aider les médecins à saisir leurs consultations, à suivre leurs patients mais aussi à gérer la comptabilité du cabinet.
+                          Cette application a pour but d'aider les médecins à saisir leurs consultations, à suivre leurs patients mais aussi à gérer la comptabilité du cabinet.
                                                 <br />
                                                 <br />
                                                 <span style={{color :"white"}}> elle contient : </span>
@@ -442,13 +451,13 @@ const Blogs4 = () => {
                         </div>
                         <div className="text" >
                           <p>
-                          Un &quot;Smart Mirror&quot; est un miroir sans tinte avec un écran derrière qui est utilisé pour afficher des informations utiles comme l&apos;heure, la date, la météo, le calendrier et toutes sortes d&apos;autres d&apos;informations.
+                          Un &quot;Smart Mirror&quot; est un miroir sans tain avec un écran derrière qui est utilisé pour afficher des informations utiles comme l'heure, la date, la météo, l'agendat et toutes sortes d'autres d'informations.
                                                     <br /> <br />
                                                    <span style={{ color:"white"}}>il contient :</span> 
 
                                                     <br /> 
                                                     • API &quot;MagicMirror&quot;. <br />
-                                                    • Cadre de l&apos;image. <br />
+                                                    • Cadre de l'image. <br />
                                                     • Moniteur 1080p Acer.<br />
                                                     • Raspberry Pi Kit. <br />
                                                     • Miroir Acrylique. <br />
@@ -480,19 +489,19 @@ const Blogs4 = () => {
                         </div>
                         <div className="text" >
                           <p>
-                          L&apos;objet du projet est la création d&apos;un site web d&apos;enchères inversées (à l&apos;aveugle). Le principe étant que 
-                          chaque participant peut proposer un ou plusieurs prix pour une enchère en cours. À la fin de l&apos;enchère, 
-                          la personne avec le prix le plus bas remporte l&apos;enchère. Comme, il se peut qu&apos;il n&apos;y ait pas de gagnant.
-                           Dans ce cas, il sera nécessaire de re-créditer les jetons utilisés de chaque participant, pour l&apos;enchère non remportée. <br />
+                          L'objet du projet est la création d'un site web d'enchères inversées (à l'aveugle). Le principe étant que 
+                          chaque participant peut proposer un ou plusieurs prix pour une enchère en cours. À la fin de l'enchère, 
+                          la personne avec le prix le plus bas remporte l'enchère. Comme, il se peut qu'il n'y ait pas de gagnant.
+                           Dans ce cas, il sera nécessaire de re-créditer les jetons utilisés de chaque participant, pour l'enchère non remportée. <br />
                                                 <br />
                                                 <span style={{color:"white"}}>Il contient : </span>
 
                                                 <br />
                                                 • Page de connexion et de session pour le client.
                                                 <br />
-                                                • Algorithme d&apos;enchères inversées.
+                                                • Algorithme d'enchères inversées.
                                                 <br />
-                                                • Interface de gestion des enchères pour l&apos;administrateur.
+                                                • Interface de gestion des enchères pour l'administrateur.
                                                 <br />
                                                 • Création de base de données Mysql.
                                                 <br />
@@ -512,7 +521,7 @@ const Blogs4 = () => {
                         <div className="info">
                           
                         <h3>
-                        Showcase site for a Fitness and Bodybuilding halls
+                        Site vitrine d'une salle de Fitness et Musculation
                           </h3>
                         </div>
                         <div className="title">
@@ -522,7 +531,7 @@ const Blogs4 = () => {
                         </div>
                         <div className="text" >
                           <p>
-                          Développement du design et création du site fitness et musculation pour une meilleure cohérence professionnelle de la salle.
+                          Développement du design et création du site de fitness et musculation pour une meilleure visilibitée professionnelle de la salle.
                                                <br />
                                               <br />
                                                <span style={{ color :"white"}}> Il contient : </span> 
@@ -530,11 +539,11 @@ const Blogs4 = () => {
                                                <br />
                                                 • page de présentation de la salle de sport
                                                <br />
-                                                • Mise en place d&apos;un système de réservation ou d&apos;enregistrement de créneaux.
+                                                • Mise en place d'un système de réservation et d'enregistrement de créneaux.
                                               <br />
                                                 • Création de spots publicitaires pour les offres en cours.
                                               <br />
-                                                • Surveillance de la sécurité et de la maintenance du site.
+                                                • Surveillance de la sécurité et  maintenance du site.
 
                                               </p>
                         </div>

@@ -1,9 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
 import React, { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect";
+import { useRouter } from "next/router";
+import en from "../../locales/en.json";
+import fr from "../../locales/fr.json";
 
 const FreelancreIntro = () => {
-    // solves a weird bug where the styles for the icons won't be applied
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === "en" ? en : fr;
+
+    
+
+   
     const [showIcons, setShowIcons] = useState(false);
     useEffect(() => setShowIcons(true), []);
     return (
@@ -25,6 +34,7 @@ const FreelancreIntro = () => {
                                         strings: [
                                             "Ingénieur & Consultant CyberSécurité",
                                             "From nothing, power comes forth."
+                                            
                                         ],
                                         autoStart: true,
                                         loop: true,

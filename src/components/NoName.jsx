@@ -1,7 +1,7 @@
 function NoName() {
     const skills = [
         {
-            title: "Certifiation & Formation Cloud Associate & Junior Penetration Tester",
+            title: "Certification & Formation Cloud Associate & Junior Penetration Tester",
             subTitle: {
                 text: "",
                 link: "",
@@ -11,17 +11,17 @@ function NoName() {
             listTitle: "Acquis :",
             listItems: [
                 "Compréhension des services cloud & des fournisseurs cloud,  tels AWS, Microsoft Azure, Google Cloud Platform (GCP) ;",
-                "Sécurité cloud, y compris IAM, surveillance, gestion des PKI,la conformité aux réglementations ;",
-                " capable de rechercher des vulnérabilités dans les systèmes, les réseaux et les applications pour identifier les points faibles de sécurité ;",
-                "Exploiter les vulnérabilités découvertes pour gagner un accès non autorisé à un système ou une application ;",
+                "Sécurité cloud, y compris IAM, surveillance, gestion des PKI, conformité aux réglementations ;",
+                "Capable de rechercher des vulnérabilités dans les systèmes, les réseaux et les applications pour identifier les points faibles de sécurité ;",
+                "Exploiter les vulnérabilités découvertes pour permettre un accès non autorisé à un système ou une application ;",
                 "Capable de documenter vos découvertes et vos activités d'audit de manière claire et précise dans des rapports d'audit ;",
-                "compréhension des lois et des réglementations en matière de tests d'intrusion éthiques et respect des périmetres exigées ;",
+                "Compréhension des lois et des réglementations en matière de tests d'intrusion éthiques et respect des périmetres exigés ;",
             ],
            
             
         },
         {
-            title: "Certifiation & Formation ISO-27001 Foundation & Lead Auditor",
+            title: "Certification & Formation ISO-27001 Foundation & Lead Auditor",
             subTitle: {
                 text: "",
                 link: "",
@@ -31,10 +31,10 @@ function NoName() {
             listTitle: "Acquis :",
             listItems: [
                 "Connaissance approfondie de la norme ISO 27001, y compris ses exigences, ses principes et ses processus ; ",
-                "Identification, évaluation et gestion les risques liés à la sécurité de l'information au sein d'une organisation (iso-27005) ;",
-                "Gestion de la conformité des organisations aux exigence iso-27001 et d'autres reglemenation liées au SI ;",
+                "Identification, évaluation et gestion des risques liés à la sécurité de l'information au sein d'une organisation (ISO-27005) ;",
+                "Gestion de la conformité des organisations aux exigenceS ISO-27001 et d'autres reglemenationS liées au SI ;",
                 "Compétences en planification, en conduite et en gestion d'audits de sécurité de l'information ;",
-                "Rédaction des rapports d'audit complets et présentations des résultats d'audit claire et constructive.",
+                "Rédaction de rapports d'audit complets avec présentation de résultat d'audit clairs et précis.",
             ],
             
         },
@@ -66,12 +66,13 @@ function NoName() {
             date: "2018-2021",
             listTitle: "Acquis :",
             listItems: [
-                "Algorithmes (Complexité, Tri, Graphe, Réseaux) ;",
+                "Algorithmes (Complexité, Tri, Graphe, Réseaux)",
                 "Programmation (C , Java, Shell, MERN STACK, Web)",
-                "Langages formels ● Architecture des ordinateurs (Mips, X86, Circuits) ;",
-                "Systèmes d'exploitation (Linux, Windows, Gestion de Memoire et Fichier) ;",
-                "Administration Réseaux (Model OSI, Cisco, Programmation Socket) ;",
-                "Théorie des graphes"
+                "Langages formels ● Architecture des ordinateurs (Mips, X86)",
+                "Architecture des ordinateurs (Mips, X86, Circuits)",
+                "Systèmes d'exploitation (Linux, Windows, Gestion de Memoire et Fichier)",
+                "Administration Réseaux (Model OSI, Cisco, Programmation Socket)",
+                "Théorie des graphes."
             ],
         },
         {
@@ -84,12 +85,12 @@ function NoName() {
             date: "2021 - Aujourd'hui",
             listTitle: "Missions :",
             listItems: [
-                "Evaluation Des besoins spécifiques en matière de gouvernance, de gestion des risques et de conformité.",
+                "Evaluation des besoins spécifiques en matière de gouvernance, de gestion des risques et de conformité.",
                 "Mise en conformité réglementaire des clients, telles que le RGPD, PCI-DSS- ISO-27001.",
-                "Évaluation de la conformité avec audits de conformité pour vérifier que les politiques et les procédures sont suivies.",
-                "Tests d'intrusion pour identifier les vulnérabilités et les faiblesses de la sécurité dans les système d'informations de l'entreprise.",
+                "Évaluation de la conformité avec audits de conformité pour vérifier que les politiques et les procédures sont respectées.",
+                "Tests d'intrusion pour identifier les vulnérabilités et les faiblesses de la sécurité dans les système d'information de l'entreprise.",
                 "Fournir des conseils sur la manière de renforcer la sécurité des systèmes et des applications.",
-                "Formmations des employés et les parties prenantes aux politiques et aux procédures de sécurité de l'information et à la conformité."
+                "Formations des employés et des parties prenantes aux politiques, aux procédures de sécurité de l'information et à la conformité."
             ],
         },
         {
@@ -102,15 +103,15 @@ function NoName() {
             date: "Avril 2023 - Aujourd'hui",
             listTitle: "Missions :",
             listItems: [
-                "Collaboration sur des projets et des initiatives liés à la gestion des risques basé sur le referenciel ISO-27005.",
-                "Contribuer aux initiatives de l’ANSSI en participant à des groupes de travail pour l'amélioration contiunue de la méthode.",
-                "Modélisation des risques et les scénarios d'incidents de sécurité.",
+                "Collaboration sur des projets et des initiatives liés à la gestion des risques basée sur le referenciel ISO-27005.",
+                "Contribution aux initiatives de l’ANSSI en participant à des groupes de travail pour l'amélioration continue de la méthode.",
+                "Modélisation des risques et des scénarios d'incidents de sécurité.",
                 "Conseil en gestion des risques aux clients pour une gestion efficace de leurs risques en matière de sécurité de l'information.",
-                "Former les équipes de sécurité et les parties prenantes à l'utilisation de la méthodes Ebios Risk Manager."
+                "Formation des équipes de sécurité et les parties prenantes à l'utilisation de la méthodes Ebios Risk Manager."
             ],
         },
         {
-            title: "Appuie Responsable de la sécurité des Systèmes d'informations (RSSI)",
+            title: "Appui Responsable de la sécurité des Systèmes d'informations (RSSI)",
             subTitle: {
                 text: "",
                 link:"",
@@ -120,10 +121,10 @@ function NoName() {
             listTitle: "Missions :",
             listItems: [
                 "Collaboration à l'élaboration de politiques de sécurité, de normes et de procédures pour garantir la conformité de sécurité.",
-                "Aider à la réalisation et gestion des audits de vulnérabilité de sécurité internes ou externes.",
+                "Aide à la réalisation et la gestion des audits de vulnérabilité de sécurité internes ou externes.",
                 "Mise en place de la méthode EBIOS RM.",
                 "Coordination avec les équipes de sécurité pour mettre en œuvre des contrôles de sécurité et répondre aux incidents.",
-                "ontribuer à l'évaluation régulière de la posture de sécurité de l'organisation et à l'amélioration continue des pratiques de sécurité."
+                "Contribuer à l'évaluation régulière de la posture de sécurité de l'organisation et à l'amélioration continue des pratiques de sécurité."
             ],
            
         },
@@ -142,12 +143,12 @@ function NoName() {
             ],
         },
         {
-            title: "Developpment Web Full Stack (Laravel & Symphony",
+            title: "Developpment Web Full Stack (Laravel & Symphony)",
             subTitle: {
                 text: "",
                 link: "",
             },
-            place: "Stage - Bureau de certification Internationale France",
+            place: "Stage - Bureau de certification Internationale France (BCIFrance)",
             date: "Avril 2021 - Juin 2021",
             listTitle: "Missions :",
             listItems: [
@@ -166,11 +167,11 @@ function NoName() {
             date: "2018-2021",
             listTitle: "Missions :",
             listItems: [
-                "Conception Web ;",
-                "Developpment (Front End, Back End) ;",
-                "Management de projets ;",
-                "Natural referencing • SEO Social networks ;",
-                "Gestion de qualité & des tests (unitaire, fonctionnelle ;",
+                "Conception Web.",
+                "Developpment (Front End, Back End).",
+                "Management de projets.",
+                "Natural referencing • SEO Social networks.",
+                "Gestion de qualité & des tests (unitaire, fonctionnelle)",
                 "Conception et gestion de bases de données (SQL ou NoSQL)",
 
             ],

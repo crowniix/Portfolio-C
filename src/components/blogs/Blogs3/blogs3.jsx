@@ -11,7 +11,7 @@ const Blogs3 = () => {
               <h6 className="wow fadeIn" data-wow-delay=".5s">
               Art1cl3s_r3c3nts.Init
               </h6>
-              <h3 className="wow color-font">De mes blogs.</h3>
+              <h3 className="wow color-font">Mes blogs.</h3>
             </div>
           </div>
         </div>

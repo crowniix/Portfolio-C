@@ -2,8 +2,18 @@
 import React from "react";
 import ClientsData from "../../data/sections/clients.json";
 import Split from "../Split";
+import { useRouter } from "next/router";
+import en from "../../locales/en.json";
+import fr from "../../locales/fr.json";
+
+
 
 const Clients = ({theme}) => {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === "en" ? en : fr;
+
+
   var first = ClientsData.slice(0, ClientsData.length / 2);
   var second = ClientsData.slice(4, ClientsData.length);
   return (
@@ -11,14 +21,13 @@ const Clients = ({theme}) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-4 valign md-mb50">
-            <div className="sec-head mb-0">
+            <div className=" mb-0">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
               0ut1ls_Cy83rs3curité.sh
               </h6>
-              <h3 className="wow mb-20 color-font">Outils Utilisés</h3>
+              <h3 className="wow mb-20 color-font">{t["Title-Outils"]}</h3>
               <p>
-                    Liste non exhaustive de variété d&apos;outils pour évaluer la sécurité des systèmes informatiques et pour aider les organisations à gérer 
-                    leurs processus de gouvernance, évaluer les risques et assurer la conformité aux réglementations.
+                    {t["p1-Outils"]}
               </p>
             </div>
           </div>

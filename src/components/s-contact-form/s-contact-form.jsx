@@ -1,6 +1,12 @@
 import React from "react";
+import { useRouter } from "next/router";
+import en from "../../locales/en.json";
+import fr from "../../locales/fr.json";
 
 const SContactForm = ({ noLine }) => {
+    const router = useRouter();
+    const { locale } = router;
+    const t = locale === "en" ? en : fr;
     return (
         <section className="contact-sec section-padding position-re" id="contact">
             <div className="container">
@@ -11,7 +17,7 @@ const SContactForm = ({ noLine }) => {
                             M3_C0nt4Ct3r.MSI
                             </h6>
                             <h3 className="wow color-font">
-                                Unissons nos forces pour l&apos;excellence en cybersécurité.
+                                {t["Title-Contact"]}
                             </h3>
                         </div>
                     </div>
@@ -33,7 +39,7 @@ const SContactForm = ({ noLine }) => {
                                                     id="form_name"
                                                     type="text"
                                                     name="name"
-                                                    placeholder="Name"
+                                                    placeholder="Nom"
                                                     required="required"
                                                 />
                                             </div>
@@ -78,7 +84,7 @@ const SContactForm = ({ noLine }) => {
                                                     href="#0"
                                                     className="butn bord curve mt-30"
                                                 >
-                                                    <span>Send Massege</span>
+                                                    <span className="">Envoyé le message</span>
                                                 </button>
                                             </div>
                                         </div>

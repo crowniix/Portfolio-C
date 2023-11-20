@@ -9,6 +9,7 @@ const Services3 = () => {
     const router = useRouter();
     const { locale } = router;
     const t = locale === "en" ? en : fr;
+    
     React.useEffect(() => {
         cardMouseEffect(document.querySelectorAll(".feat .items"));
     }, []);
@@ -22,8 +23,8 @@ const Services3 = () => {
                                M3s_S3rv1c3s.BAT 
                             </h6>
                             <h3 className="wow color-font">
-                            Expérience, Expertise, Excellence : Votre Partenaire en Cybersécurité
-                               
+                                {t["Title-Mes-Services"]}       <br />
+                                                         
                             </h3>
                         </div>
                     </div>
@@ -34,29 +35,29 @@ const Services3 = () => {
                             <span className="icon">
                             <img style={{height :"205px"}} src="/img/icon/Filled_Hacker.svg" alt="" />
                             </span>
-                            <h5>Test d&apos;intrusion</h5>
+                            <h5>{t["Title-Pentest"]}</h5>
                             
                                 
                             <p style={{ marginTop: "10px", color : "white"}}>
-                            • Tests de pénétration sur des réseaux externes, internes et sans fil. 
+                             {t["p1-Pentest"]}
                             </p>
                             <p style={{ marginTop: "10px", color : "white"}}>
-                            • Tests de sécurité d’applications Web et mobiles.
+                            {t["p2-Pentest"]}
                             </p>
                             <p style={{ marginTop: "10px", color : "white"}}>
-                            • Revues d’architecture de sécurité réseau.
+                            {t["p3-Pentest"]}
                             </p>
                             <p style={{ marginTop: "10px", color : "white"}}>
-                            • Revue de code.<br />
+                            {t["p4-Pentest"]}
                             </p>
                             <p style={{ marginTop: "10px", color : "white"}}>
-                            • Remédiation de vulnérabilité.
+                            {t["p5-Pentest"]}
                             </p>
                             <p style={{ marginTop: "10px", color : "white"}}>
-                            • Rédaction de la documentation (POC, présentations etc.) pour différents interlocuteurs : techniques ou métiers.
+                            {t["p6-Pentest"]}
                             </p>
                             <p style={{ marginTop: "10px", color : "white"}}>
-                            • Formation en Pentest et Campagne de hameçonnage
+                            {t["p7-Pentest"]}
                             </p>
                             
 
@@ -75,21 +76,21 @@ const Services3 = () => {
                             <span className="icon">
                                 <img style={{height :"205px"}} src="/img/icon/Filled_Privacy Policy.svg" alt="" />
                             </span>
-                            <h5>Gouvernance, Risque et Conformité</h5>
+                            <h5>{t["Title-GRC"]}</h5>
                                 <p style={{ marginTop: "10px", color : "white"}}>
-                                • Mise en place d&apos;un système de Management de la securité de l&apos;information(iso-27001).
+                                 {t["p1-GRC"]}
                                 </p>
                                 <p style={{ marginTop: "10px", color : "white"}}>
-                                • Élaboration et mettre en œuvre des politiques de cybersécurité. 
+                                {t["p2-GRC"]}
                                 </p>
                                 <p style={{ marginTop: "10px", color : "white"}}>
-                                • Identification des menaces potentielles et évaluation des risques liés à la cybersécurité (Ebios RM).
+                                {t["p3-GRC"]}
                                 </p>
                                 <p style={{ marginTop: "10px", color : "white"}}>
-                                • Mise en place des mécanismes de suivi et gestion des incidents de sécurité(iso-27005).
+                                {t["p4-GRC"]}
                                 </p>
                                 <p style={{ marginTop: "10px", color : "white"}}>
-                                • Évaluations de la conformité pour s&apos;assurer que les politiques de sécurité sont respectées.
+                                {t["p5-GRC"]}
                                 </p>
                     
                            
@@ -105,26 +106,22 @@ const Services3 = () => {
                             <span className="icon">
                             <img style={{height :"205px"}} src="/img/icon/Filled_Office_Security.svg" alt="" />
                             </span>
-                            <h5>Consultation Cybersécurité</h5>
+                            <h5> {t["Title-Consultation"]}</h5>
                             
                             <p style={{ marginTop: "10px", color : "white"}}>
-                            o Assistance à la MOA pour la rédaction de matrices d’Habilitation(IAM).<br />
+                            {t["p1-Consultation"]}
                              </p>
                             <p style={{ marginTop: "10px", color : "white"}}>
-                            o Assistance MOA dans la sélection/choix des solutions de projet 
+                            {t["p2-Consultation"]}
                             </p>
                             <p style={{ marginTop: "10px", color : "white"}}>
-                            o Assurance que l&apos;entreprise est en conformité avec les réglementations en matière de cybersécurité et de protection des données(RGPD, ISO-27001).<br />
-                            </p>
+                            {t["p3-Consultation"]}                            </p>
                             <p style={{ marginTop: "10px", color : "white"}}>
-                            o Définition des exigences de sécurité , telles que la gestion des accès, des backups et la surveillance des journaux.<br />
-                            </p>
+                            {t["p4-Consultation"]}                            </p>
                             <p style={{ marginTop: "10px", color : "white"}}>
-                            o Gestion de la continuité des activités au sein d&apos;une organisation. (PCA et PRA)<br />
-                            </p>
+                            {t["p5-Consultation"]}                            </p>
                             <p style={{ marginTop: "10px", color : "white"}}>
-                            o Formation en GRC et Sensibilisation de la sécurité de l&apos;information.<br />
-                            </p>
+                            {t["p6-Consultation"]}                            </p>
                     
                             
                             <Link href="#Services">

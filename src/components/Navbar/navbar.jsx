@@ -154,32 +154,32 @@ const Navbar = ({ lr, nr, theme }) => {
             </li> */}
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                {t.Home}
+                                {t.Acceuil}
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#Aboutme">
-                                A propos
+                               {t["A-propos"]}
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#Services">
-                                 Services
+                                 {t.Services}
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#Cv">
-                                Expériences
+                               {t.Expériences} 
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#Blog">
-                                Blog
+                                {t.Blog}
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#contact">
-                                Contact
+                                {t.Contact}
                             </a>
                         </li>
                     </ul>

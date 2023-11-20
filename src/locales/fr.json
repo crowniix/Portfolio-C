@@ -1,6 +1,87 @@
 {
     "test": "testFR",
     "Salut" : "salut",
-    "Home" : "Acceuil",
+    "Acceuil" : "Acceuil",
+    "A-propos" : "A propos",
+    "Services" : "Services",
+    "Expériences" : "Expériences",
+    "Blog" : "Blog",
+    "Contact" :"Contact",
+    "Poste" : "Ingénieur & Consultant CyberSécurité",
+    "DIV---------2-----whoami" : "............................................................",
+    "Download-CV" : "Télécharger CV",
+    "whoami" : "De ma fascination pour les jeux vidéo à la maîtrise des lignes de code, ma passion pour la technologie m'a conduit vers une carrière où je protège désormais les données numériques. je suis également compétent en :",
+    "Compliance-and-regulations" : "Conformité et réglementation",
+    "Vulnerability-audit-and-Pentest" : "Audit de vulnérabilités & Pentest",
+    "DIV---------3-----Mes-Services" : "............................................................",
+    "Title-Mes-Services" : "Expérience & Expertise",
+    "Title-Mes-Services1" : "Votre Partenaire en Cybersécurité",
+        "DIV---------3.1-----Pentest" : "............................................................",
+        "Title-Pentest" : "Test d'intrusion",
+        "p1-Pentest" : "• Tests de pénétration sur des réseaux externes, internes et sans fil.",
+        "p2-Pentest" : "• Tests de sécurité d’applications Web et mobiles.",
+        "p3-Pentest" : "• Revue d’architecture de sécurité réseau.",
+        "p4-Pentest" : "• Revue de code.",
+        "p5-Pentest" : "• Remédiation de vulnérabilité.",
+        "p6-Pentest" : "• Rédaction de la documentation (POC, présentations etc.) pour différents interlocuteurs : techniques ou métiers.",
+        "p7-Pentest" : " • Formation en Pentest et Campagne de hameçonnage.",
+            "DIV---------3.2-----GRC" : "............................................................",
+            "Title-GRC" : "Gouvernance, Risque et Conformité",
+            "p1-GRC" : "• Mise en place d'un système de Management de la securité de l'information (iso-27001).",
+            "p2-GRC" : "• Élaboration et mise en œuvre de politiques de cybersécurité. ",
+            "p3-GRC" : "• Identification des menaces potentielles et évaluation des risques liés à la cybersécurité (Ebios RM).",
+            "p4-GRC" : "• Mise en place de mécanismes de suivi et gestion des incidents de sécurité (iso-27005).",
+            "p5-GRC" : "• Évaluations de la conformité pour s'assurer que les politiques de sécurité sont respectées.",
+                "DIV---------3.3-----Consultation" : "............................................................",
+                "Title-Consultation" : "Consultation Cybersécurité",
+                "p1-Consultation" : "o Assistance à la MOA pour la rédaction de matrices d’Habilitation (IAM).",
+                "p2-Consultation" : "o Assistance MOA dans la sélection/choix des solutions de projet ",
+                "p3-Consultation" : "o Assurance que l'entreprise est en conformité avec les réglementations en matière de cybersécurité et de protection des données (RGPD, ISO-27001).",
+                "p4-Consultation" : "o Définition des exigences de sécurité , telles que la gestion des accès, des backups et la surveillance des journaux.",
+                "p5-Consultation" : "o Gestion de la continuité des activités au sein d'une organisation. (PCA et PRA)",
+                "p6-Consultation" : "o Formation en GRC et Sensibilisation sur la sécurité de l'information.",
+        "DIV---------5-----Outils" : "............................................................",
+        "Title-Outils" : "Outils Utilisés",
+        "p1-Outils" : "Liste non exhaustive d'outils pour évaluer la sécurité des systèmes informatiques et pour aider les organisations à gérer leurs processus de gouvernance, évaluer les risques et assurer la conformité aux réglementations.",
+        "icon1-Outils" : "",
+        "DIV---------6-----Projects" : "............................................................",
+            "DIV---------6.1-----Project-1" : "............................................................",
+            "Title-1-Projects-1" : "Application de sécurité",
+            "Title-2-Projects-1" : "Application d'E-mail Tracking",
+            "Title-3-Projects-1" : "Conception & Développement",
+            "Title-3.1-Projects-1" : "(en cours)",
+            "p1-Projects-1" : "Cet outil de suivi des e-mails permet d'ajouter une image invisible d'un pixel à l'intérieur du mail envoyé. Cette image pixel est chargée lorsque le destinataire ouvre les e-mails, ce qui permet de savoir quand celui-ci est ouvert. Plein d'autres informations peuvent être également collectées lors du chargement de l'image.",
+            "p2-Projects-1" : "L'information fournit :",
+            "p3-Projects-1" : "• Notification de la réception et de l'ouverture du mail à date et heure précise.",
+            "p4-Projects-1" : "• L'Adresse IP et la localisation du destinataire du mail.",
+            "p6-Projects-1" : "• Le système et la version du navigateur.",
+            "p7-Projects-1" : "• Moteur de rendu du navigateur.",
+            "DIV---------6.2-----Project-2" : "............................................................",
+            "Title-1-Projects-2" : " Outil d'évaluation",
+            "Title-2-Projects-2" : "Du niveau de maturité de la sécurité",
+            "Title-3-Projects-2" : "d'un système d'information",
+            "Title-4-Projects-2" : "Conception & Développement",
+            "p1-Projects-2" : "L'outil permet d'évaluer la maturité d'un SI, en terme de sécurité, au regard des référentiels et des bonnes pratiques reconnues (ISO 27001, ISO 27005, NIS, Guide d'hygiène de l'ANSSI). Cette démarche a pour enjeux de lutter contre la cyber-criminalité, de respecer les cadres réglementaires français et européens, d'affirmer la conformité du Groupe et de renforcer la confiance et la satisfaction des clients, enjeu majeur pour le client.",
+            "p2-Projects-2" : "il contient :",
+            "p3-Projects-2" : "• Évaluation du niveau de la maturité selon 5 niveaux biens définis.",
+            "p4-Projects-2" : "• L'évaluation s'oppère sur le CIS (Critical Security Controls) et le guide d'hygiène de l'ANSSI.",
+            "p5-Projects-2" : "• Représentation des données globales sur le niveau de la maturité d'un SI sous différentes formes (radar, sous secteur, etc...).",
+            "p6-Projects-2" : "• Un rendu visible et instantanné du niveau de maturité du système d'information.",
+    
+
+
+
+
+
+
+
+
+        "DIV---------11-----Contact" : "............................................................",
+            "Title-Contact" : "Unissons nos forces pour l'excellence en cybersécurité.",
+
+
+
+
+
     "Interface-Design" : "designe interface"
 }
