@@ -1,6 +1,7 @@
 import React from "react";
 import worksData from "../../data/sections/works.json";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { useRouter } from "next/router";
 // import Swiper core and required modules
 import SwiperCore, { Autoplay, Pagination, Navigation } from "swiper";
 import Link from "next/link";
@@ -13,6 +14,9 @@ const Works = () => {
     const navigationPrevRef = React.useRef(null);
     const navigationNextRef = React.useRef(null);
     const [pageLoaded, setPageLoaded] = React.useState(false);
+    const router = useRouter();
+    const { locale } = router;
+    
     React.useEffect(() => {
         setPageLoaded(true);
     }, [pageLoaded]);
@@ -24,7 +28,8 @@ const Works = () => {
         >
             <div className="sec-head  text-center">
                 <h6 className="wow fadeIn pt-4" data-wow-delay=".5s">
-                C3rt1f1cat10ns_&_F0rm4ti0Ns.exe
+                
+                {locale == "fr" ? "C3rt1f1cat10ns_&_F0rm4ti0Ns.exe" : "C3rt1f1cat10ns_&_D1p10ma$.exe"}
                 </h6>
             </div>
             <div className="container-fluid">

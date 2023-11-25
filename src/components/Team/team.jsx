@@ -3,8 +3,16 @@ import React from "react";
 import teamSkillsProgress from "../../common/teamSkillsProgress";
 import tooltipEffect from "../../common/tooltipEffect";
 import teamsDate from "../../data/sections/team.json";
+import { useRouter } from "next/router";
+//import en from "../../../locales/en.json";
+//import fr from "../../../locales/fr.json";
 
 const Team = () => {
+
+    const router = useRouter();
+    const { locale } = router;
+  //  const t = locale === "en" ? en : fr;
+
     React.useEffect(() => {
         teamSkillsProgress();
         setTimeout(() => {
@@ -27,13 +35,13 @@ const Team = () => {
                                 <span></span>
                             </div> */}
                             <h3 className="co-tit mb-15">
-                            Compétences techniques
+                            {locale=="en"? "Technical Skills" : "Compétences techniques "}
                             </h3>
                             <div className="skills-box mt-40">
                                 {teamsDate.skills.map((skill) => (
                                     <div className="skill-item" key={skill.id}>
                                         <h6 className="custom-font">
-                                            {skill.text}
+                                            {locale=="en" ? skill.textEN : skill.textFR}
                                         </h6>
                                         <div className="skill-progress">
                                             <div
@@ -53,7 +61,7 @@ const Team = () => {
                         style={{ minHeight: "auto", padding: "0 15px" }}
                     >
                         <h3 className="co-tit mb-65">
-                        Caractères
+                         {locale=="en" ? "Character" : "Caractères"}
                         </h3>
                         <ul className="row" style={{ rowGap: 75 }}>
                             <li className="col-6">
@@ -63,7 +71,7 @@ const Team = () => {
                                     </span>
                                 </div>
                                 <div className="cont">
-                                    <h6>Curieux</h6>
+                                    <h6> {locale=="en" ? "Curious" : "Curieux"}</h6>
                                 </div>
                             </li>
                             <li className="col-6">
@@ -73,7 +81,7 @@ const Team = () => {
                                     </span>
                                 </div>
                                 <div className="cont">
-                                    <h6>Créatif</h6>
+                                    <h6>  {locale=="en" ? "Creative" : "Créatif"}</h6>
                                 </div>
                             </li>
 
@@ -94,7 +102,7 @@ const Team = () => {
                                     </span>
                                 </div>
                                 <div className="cont">
-                                    <h6>Méthodique</h6>
+                                    <h6>{locale=="en" ? "Methodical" : "Méthodique"}</h6>
                                 </div>
                             </li>
                         </ul>

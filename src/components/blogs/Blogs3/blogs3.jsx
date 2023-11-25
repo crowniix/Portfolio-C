@@ -1,7 +1,11 @@
 import React from "react";
 import Link from "next/link";
-
+import { useRouter } from "next/router";
 const Blogs3 = () => {
+
+  const router = useRouter();
+  const { locale } = router;
+
   return (
     <section className="blog-grid section-padding position-re" id="Blog">
       <div className="container">
@@ -9,9 +13,10 @@ const Blogs3 = () => {
           <div className="col-lg-8 col-md-10">
             <div className="sec-head text-center">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-              Art1cl3s_r3c3nts.Init
+              
+              {locale=="en" ? "R3c3nt_Art1c13s.init" : "Art1cl3s_r3c3nts.init"}
               </h6>
-              <h3 className="wow color-font">Mes blogs.</h3>
+              <h3 className="wow color-font">{locale=="en" ? "My Blogs" : "Mes blogs."}</h3>
             </div>
           </div>
         </div>
@@ -25,7 +30,7 @@ const Blogs3 = () => {
                 <Link href="#Blog">
                   <a className="date">
                     <span>
-                      <i>06</i> Janviers 2022
+                      <i>06</i>/ 01 / 2022
                     </span>
                   </a>
                 </Link>
@@ -42,7 +47,8 @@ const Blogs3 = () => {
                 <h6>
                   <Link href="#Blog">
                     <a>
-                        L&apos;avenir de la <br />blockchain.                    
+                      
+                        {locale=="en" ? "The future of blockchain" : "L'avenir de la blockchain"}                 
                     </a>
                   </Link>
                 </h6>
@@ -63,7 +69,7 @@ const Blogs3 = () => {
                 <Link href="#Blog">
                   <a className="date">
                     <span>
-                      <i>03</i> Mars 2023
+                      <i>03</i>/ 03 / 2023
                     </span>
                   </a>
                 </Link>
@@ -80,7 +86,8 @@ const Blogs3 = () => {
                 <h6>
                   <Link href="#Blog">
                     <a>
-                    Tout ce que vous devez savoir sur la 5G.
+                    
+                    {locale=="en" ? "All you need to know about the 5G network." : "Tout ce que vous devez savoir sur la 5G."} 
                     </a>
                   </Link>
                 </h6>
@@ -101,7 +108,7 @@ const Blogs3 = () => {
                 <Link href="#Blog">
                   <a className="date">
                     <span>
-                      <i>07</i> juillet 2023
+                      <i>07</i>/ 07 / 2023
                     </span>
                   </a>
                 </Link>
@@ -118,7 +125,8 @@ const Blogs3 = () => {
                 <h6>
                   <Link href="#Blog">
                     <a>
-                    Cookies : le consentement biaisé des internautes.
+                    
+                    {locale=="en" ? "Cookies: the biased consent of Internet users." : "Cookies : le consentement biaisé des internautes."}  
                     </a>
                   </Link>
                 </h6>

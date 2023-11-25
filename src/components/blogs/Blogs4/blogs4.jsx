@@ -320,34 +320,34 @@ const Blogs4 = () => {
                   <div className="item wow fadeIn" data-wow-delay=".6s">
                       <div className=" content" style={{ textAlign : "left"}}>
                         <h5 className="wow color-font" >
-                        CyberSécurité
+                        {t == fr ? "CyberSécurité" : "CyberSecurity"}
                           </h5>
                         <div className="info">
                           
                         <h3>
-                        Retro-ingénierie <br /> & Analyse statique de programmes.
+                        {t["Retro-ingenierie"]} <br /> & {t == en ? "Static analysis of programs." : "Analyse statique de programmes."}
                           </h3>
                         </div>
                         <div className="title">
                           <h5>
-                          Réalisation
+                          {t == en ? "Achivements" : "Réalisation" }
                           </h5>
                         </div>
                         <div className="text" >
                           <p>
-                          Retro-ingénierie <br />
+                          {t["Retro-ingenierie"]} <br />
 
-                          La retro-ingénierie va permettre de tracer l'exécution du programme et de changer certaines variables ainsi que le fonctionnement initial du logiciel. <br /> <br />
-                          •  Réalisation de plusieurs exercices et CTF de Retro-ingénierie. <br /> 
-                          •  Maitrise des outils de Retro-ingénierie :  <br />
+                          {t["p1-Projects-3"]} <br /> <br />
+                          •  {t["p2-Projects-3"]} <br /> 
+                          •  {t["p3-Projects-3"]}  <br />
                           GDB : GNU Debugger <br />
                           Radare2 : <a className="wow color-font" href="www.github.com/radareorg/radare2">www.github.com/radareorg/radare2</a> <br />
-                          Ghidra, utilisé par la NSA : <a className="wow color-font" href="www.ghidra-sre.org">www.ghidra-sre.org</a>  <br />
+                          Ghidra, {t == en ? "Used by the NSA" : "utilisé par la NSA"} : <a className="wow color-font" href="www.ghidra-sre.org">www.ghidra-sre.org</a>  <br />
                           IDA : <a  className="wow color-font"href="www.hex-rays.com/products/ida">www.hex-rays.com/products/ida</a> <br />
-                          • Analyse statique de programmes. <br /> <br />
+                          • {t == en ? "Static analysis of programs." : "Analyse statique de programmes."} <br /> <br />
 
-                          j'ai étudié le comportement des programmes exemples, pour y déceler des bugs ou des failles potentiels. <br />
-                          L'analyseur PMD : <a className="wow color-font" href="www.pmd.github.io/ ">www.pmd.github.io</a> <br />
+                          {t["p4-Projects-3"]} <br />
+                          {t == en ? "The PMD analyzer" : "L'analyseur PMD"} : <a className="wow color-font" href="www.pmd.github.io/ ">www.pmd.github.io</a> <br />
                           <span >SpotBugs : <a className="wow color-font" href="www.spotbugs.github.io">www.spotbugs.github.io</a></span>  <br />
                           </p>
                         </div>
@@ -364,31 +364,23 @@ const Blogs4 = () => {
                         <div className="info">
                           
                         <h3>
-                        Test d'intrusion <br /> et entrainement de la sécurité Web.
+                        {t == en ? "Penetration testing":"Test d'intrusion "} <br /> {t == fr ? "et entrainement de la sécurité Web." : "and web security training." }
                           </h3>
                         </div>
                         <div className="title">
                           <h5>
-                          Challenge & Entrainement
+                           {t == en ? "Challenge & Training" : "Challenge & Entrainement"}
                           </h5>
                         </div>
                         <div className="text" >
-                          <p>
-                          WebGoat est une application Web délibérément non sécurisée maintenue par l'OWASP et conçue pour s'entrainer sur des notions de sécurité 
-                           des applications Web.
-
-                            Ce programme est une démonstration des failles courantes des applications orientées web & serveur. Les exercices sont destinés à être utilisés par des personnes pour en savoir plus sur la 
-                           sécurité des applications et les techniques de test de pénétration.
-
-                                                     
-                                                     <br />
-                                                <br />
+                          <p> {t["p1-Projects-4"]}                          
+                        <br />
+                        <br />
                           <span style={{color:"white"}}>OWASP Top 10 - 2021 :</span>
 
                                                 <br /><br />
-                           • Broken Access Control • Échecs cryptographiques • Injection • Conception non sécurisée • Mauvaise configuration de la sécurité •
-                            Composants vulnérables et obsolètes • Échecs d'identification et d'authentification • Échecs de l'intégrité des logiciels et des données
-                            • Échecs de journalisation et de surveillance de la sécurité • Fausse demande côté serveur. <br />
+                           {t["p2-Projects-4"]}
+                            <br />
                           </p>
                         </div>
                         
@@ -404,29 +396,29 @@ const Blogs4 = () => {
                         <div className="info">
                           
                         <h3>
-                        Gestion <br /> de cabinet médical
+                          {t == en ? "Medical Practice" : "Gestion"}
+                         <br /> {t == en ? "management" : "de cabinet médical"}
                           </h3>
                         </div>
                         <div className="title">
                           <h5>
-                          Conception & Développement
+                           {t == en ? "Design & Development" : "Conception & Développement" }
                           </h5>
                         </div>
                         <div className="text" >
                           <p>
-                         
-                          Cette application a pour but d'aider les médecins à saisir leurs consultations, à suivre leurs patients mais aussi à gérer la comptabilité du cabinet.
-                                                <br />
-                                                <br />
-                                                <span style={{color :"white"}}> elle contient : </span>
+                         {t["p1-Projects-5"]}
+                          <br />
+                          <br />
+                          <span style={{color :"white"}}> {t == fr ? "elle contient : " : "It includes :"} </span>
 
-                                                <br />
-                                                • Page de connexion pour différencier assistant et médecin. <br />
-                                                • Gestion et Suivi du Dossier Médical. <br />
-                                                • Gestion des rendez-vous. <br />
-                                                • Gestion des fiches patient. <br />
-                                                • Gestion comptable.
-                                                </p>
+                          <br />
+                          • {t["p2-Projects-5"]} <br />
+                          • {t["p3-Projects-5"]} <br />
+                          • {t["p4-Projects-5"]} <br />
+                          • {t["p5-Projects-5"]} <br />
+                          • {t["p6-Projects-5"]}
+                          </p>
                         </div>
                         
                       </div>
@@ -436,34 +428,37 @@ const Blogs4 = () => {
                   <div className="item wow fadeIn" data-wow-delay=".6s">
                       <div className=" content" style={{ textAlign : "left"}}>
                         <h5 className="wow color-font" >
-                       Projet IOT
+                       {t == fr ? "Projet IOT" : "IOT Project"}
                           </h5>
                         <div className="info">
                           
                         <h3>
-                        Miroir intelligent
+                       {t == fr ? "Miroir intelligent" : "Smart Mirror"}
+
                           </h3>
                         </div>
                         <div className="title">
                           <h5>
-                          Conception & Développement
+                          {t == en ? "Design & Development" : "Conception & Développement"}
                           </h5>
                         </div>
                         <div className="text" >
                           <p>
-                          Un &quot;Smart Mirror&quot; est un miroir sans tain avec un écran derrière qui est utilisé pour afficher des informations utiles comme l'heure, la date, la météo, l'agendat et toutes sortes d'autres d'informations.
+                          {t["p1-Projects-6"]}
                                                     <br /> <br />
-                                                   <span style={{ color:"white"}}>il contient :</span> 
+                                                   <span style={{ color:"white"}}>
+                                                    {t == fr ? "il contient :" : "It Includes :"}
+                                                    </span> 
 
                                                     <br /> 
                                                     • API &quot;MagicMirror&quot;. <br />
-                                                    • Cadre de l'image. <br />
-                                                    • Moniteur 1080p Acer.<br />
+                                                    • {t==en ? "Picture frame.":"Cadre de l'image."} <br />
+                                                    • {t==en ? "1080p Acer Monitor." : "Moniteur 1080p Acer." }<br />
                                                     • Raspberry Pi Kit. <br />
-                                                    • Miroir Acrylique. <br />
-                                                    • 90 degrés. Adaptateur HDMI. <br />
-                                                    • Super colle.<br />
-                                                    • Peinture acrylique noire. <br />
+                                                    • {t==en?"Acrylic Mirror.":"Miroir Acrylique."} <br />
+                                                    • {t==en?"90 degrees. HDMI adapter." : "90 degrés. Adaptateur HDMI."} <br />
+                                                    • {t==en?"Super Glue":"Super colle."}<br />
+                                                    • {t==en?"Black Acrylic Paint":"Peinture acrylique noire."} <br />
                                                 </p>
                         </div>
                         
@@ -479,33 +474,33 @@ const Blogs4 = () => {
                         <div className="info">
                           
                         <h3>
-                        Enchères inversées
-                          </h3>
+                          {t==en ? "Reverse auctions" : "Enchères inversées" }
+                        </h3>
                         </div>
                         <div className="title">
                           <h5>
-                          Conception & Développement
+                          {t == en ? "Design & Development" : "Conception & Développement" }
                           </h5>
                         </div>
                         <div className="text" >
                           <p>
-                          L'objet du projet est la création d'un site web d'enchères inversées (à l'aveugle). Le principe étant que 
-                          chaque participant peut proposer un ou plusieurs prix pour une enchère en cours. À la fin de l'enchère, 
-                          la personne avec le prix le plus bas remporte l'enchère. Comme, il se peut qu'il n'y ait pas de gagnant.
-                           Dans ce cas, il sera nécessaire de re-créditer les jetons utilisés de chaque participant, pour l'enchère non remportée. <br />
+                            {t["p1-Projects-7"]}
+                          <br />
                                                 <br />
-                                                <span style={{color:"white"}}>Il contient : </span>
+                                                <span style={{color:"white"}}>
+                                                {t == fr ? "il contient :" : "It Includes :"}
+                                                </span>
 
                                                 <br />
-                                                • Page de connexion et de session pour le client.
+                                                • {t["p2-Projects-7"]}
                                                 <br />
-                                                • Algorithme d'enchères inversées.
+                                                • {t["p3-Projects-7"]}
                                                 <br />
-                                                • Interface de gestion des enchères pour l'administrateur.
+                                                • {t["p4-Projects-7"]}
                                                 <br />
-                                                • Création de base de données Mysql.
+                                                • {t["p5-Projects-7"]}
                                                 <br />
-                                                • Utilisation pour la conception et la sécurité: Symphony (framework PHP).
+                                                • {t["p6-Projects-7"]}
                                               </p>
                         </div>
                         
@@ -521,29 +516,31 @@ const Blogs4 = () => {
                         <div className="info">
                           
                         <h3>
-                        Site vitrine d'une salle de Fitness et Musculation
+                        {t["Title-1-Projects-8"]}
                           </h3>
                         </div>
                         <div className="title">
                           <h5>
-                          Conception & Développement
+                          {t == en ? "Design & Development" : "Conception & Développement" }
                           </h5>
                         </div>
                         <div className="text" >
                           <p>
-                          Développement du design et création du site de fitness et musculation pour une meilleure visilibitée professionnelle de la salle.
+                          {t["p1-Projects-8"]}
                                                <br />
                                               <br />
-                                               <span style={{ color :"white"}}> Il contient : </span> 
+                                               <span style={{ color :"white"}}> 
+                                               {t == fr ? "il contient :" : "It Includes :"}
+                                               </span> 
 
                                                <br />
-                                                • page de présentation de la salle de sport
+                                                • {t["p2-Projects-8"]}
                                                <br />
-                                                • Mise en place d'un système de réservation et d'enregistrement de créneaux.
+                                                • {t["p3-Projects-8"]}
                                               <br />
-                                                • Création de spots publicitaires pour les offres en cours.
+                                                • {t["p4-Projects-8"]}
                                               <br />
-                                                • Surveillance de la sécurité et  maintenance du site.
+                                                • {t["p5-Projects-8"]}
 
                                               </p>
                         </div>

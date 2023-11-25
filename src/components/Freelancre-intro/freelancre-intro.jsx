@@ -32,7 +32,8 @@ const FreelancreIntro = () => {
                                 <Typewriter
                                     options={{
                                         strings: [
-                                            "Ingénieur & Consultant CyberSécurité",
+                                            //"Ingénieur & Consultant CyberSécurité",
+                                            t["Poste"],
                                             "From nothing, power comes forth."
                                             
                                         ],

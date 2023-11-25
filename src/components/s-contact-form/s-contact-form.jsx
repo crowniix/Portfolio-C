@@ -14,7 +14,8 @@ const SContactForm = ({ noLine }) => {
                     <div className="col-lg-8 col-md-10">
                         <div className="sec-head text-center">
                             <h6 className="wow fadeIn" data-wow-delay=".5s">
-                            M3_C0nt4Ct3r.MSI
+                            
+                            {t == en ? "0nt4Ct_M3.MSI" : "M3_C0nt4Ct3r.MSI" }
                             </h6>
                             <h3 className="wow color-font">
                                 {t["Title-Contact"]}
@@ -39,7 +40,7 @@ const SContactForm = ({ noLine }) => {
                                                     id="form_name"
                                                     type="text"
                                                     name="name"
-                                                    placeholder="Nom"
+                                                    placeholder={t == fr ? "Nom" : "Full name"}
                                                     required="required"
                                                 />
                                             </div>
@@ -84,7 +85,9 @@ const SContactForm = ({ noLine }) => {
                                                     href="#0"
                                                     className="butn bord curve mt-30"
                                                 >
-                                                    <span className="">Envoyé le message</span>
+                                                    <span className="">
+                                                        {t == fr ? "Envoyer le message" : "Send the message"}
+                                                        </span>
                                                 </button>
                                             </div>
                                         </div>

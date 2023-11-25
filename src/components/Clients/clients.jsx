@@ -23,7 +23,7 @@ const Clients = ({theme}) => {
           <div className="col-lg-4 valign md-mb50">
             <div className=" mb-0">
               <h6 className="wow fadeIn" data-wow-delay=".5s">
-              0ut1ls_Cy83rs3curité.sh
+              {t["outil-sh"]}
               </h6>
               <h3 className="wow mb-20 color-font">{t["Title-Outils"]}</h3>
               <p>
@@ -62,7 +62,8 @@ const Clients = ({theme}) => {
                             className="link words chars splitting"
                             data-splitting
                           >
-                            {item.url}
+                            {t==fr ? item.urlfr : item.urlen}
+                            
                           </a>
                         </Split>
                       </div>
@@ -112,7 +113,7 @@ const Clients = ({theme}) => {
                             className="link words chars splitting"
                             data-splitting
                           >
-                            {item.url}
+                            {t==fr ? item.urlfr : item.urlen}
                           </a>
                         </Split>
                       </div>

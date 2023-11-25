@@ -1,5 +1,9 @@
+import { useRouter } from "next/router";
+
 function NoName() {
-    const skills = [
+    const router = useRouter();
+    const { locale } = router;
+    const skillsFR = [
         {
             title: "Certification & Formation Cloud Associate & Junior Penetration Tester",
             subTitle: {
@@ -177,14 +181,193 @@ function NoName() {
             ],
         },
     ];
+
+    const skillsEN = [
+        {
+            title: "Certification & Training in Cloud Associate & Junior Penetration Tester",
+            subTitle: {
+                text: "",
+                link: "",
+            },
+            place: "INE",
+            date: "April 2023",
+            listTitle: "Skills Acquired:",
+            listItems: [
+                "Understanding of cloud services & cloud providers such as AWS, Microsoft Azure, Google Cloud Platform (GCP);",
+                "Cloud security, including IAM, monitoring, PKI management, regulatory compliance;",
+                "Capable of searching for vulnerabilities in systems, networks, and applications to identify security weaknesses;",
+                "Exploiting discovered vulnerabilities to enable unauthorized access to a system or application;",
+                "Capable of documenting discoveries and audit activities clearly and precisely in audit reports;",
+                "Understanding of laws and regulations regarding ethical intrusion testing and compliance with required perimeters;",
+            ],
+        },
+        {
+            title: "Certification & Training in ISO-27001 Foundation & Lead Auditor",
+            subTitle: {
+                text: "",
+                link: "",
+            },
+            place: "PECB",
+            date: "April 2023",
+            listTitle: "Skills Acquired:",
+            listItems: [
+                "Thorough knowledge of ISO 27001 standard, including its requirements, principles, and processes;",
+                "Identification, assessment, and management of information security-related risks within an organization (ISO-27005);",
+                "Management of organizational compliance with ISO-27001 requirements and other information security-related regulations;",
+                "Skills in planning, conducting, and managing information security audits;",
+                "Drafting comprehensive audit reports with clear and precise audit result presentations.",
+            ],
+        },        
+        {
+            title: "Master's in Reliability and Computer Security",
+            subTitle: {
+                text: "Accredited ",
+                link: { text: "SecNumEdu (ANSSI).", href: "/" },
+            },
+            place: "Aix-Marseille University",
+            date: "2021-2023",
+            listTitle: "Acquired Skills:",
+            listItems: [
+                "Cryptography (Symmetric & asymmetric encryption, Hybrid, AES, RSA, DSA, Java Cryptography Extension);",
+                "Internet & network security;",
+                "Access control policies and models;",
+                "Enterprise information systems;",
+                "Functional security and quality;",
+                "Software security for embedded systems.",
+            ],
+        },
+        {
+            title: "Bachelor's Degree in Computer Science",
+            subTitle: {
+                text: "",
+                link: "",
+            },
+            place: "Aix-Marseille University",
+            date: "2018-2021",
+            listTitle: "Acquired Skills:",
+            listItems: [
+                "Algorithms (Complexity, Sorting, Graphs, Networks)",
+                "Programming (C, Java, Shell, MERN STACK, Web)",
+                "Formal languages ● Computer architectures (Mips, X86)",
+                "Computer architectures (Mips, X86, Circuits)",
+                "Operating systems (Linux, Windows, Memory and File Management)",
+                "Network administration (OSI Model, Cisco, Socket Programming)",
+                "Graph theory.",
+            ],
+        },
+        {
+            title: "Governance, Risk Management & Compliance Consultant & Intrusion Tester",
+            subTitle: {
+                text: "",
+                link: "",
+            },
+            place: "Freelance",
+            date: "2021 - Present",
+            listTitle: "Missions:",
+            listItems: [
+                "Evaluation of specific needs in governance, risk management, and compliance.",
+                "Regulatory compliance for clients, such as GDPR, PCI-DSS-ISO-27001.",
+                "Compliance evaluation with compliance audits to verify that policies and procedures are followed.",
+                "Intrusion testing to identify vulnerabilities and security weaknesses in the company's information systems.",
+                "Providing advice on strengthening system and application security.",
+                "Training employees and stakeholders on information security policies, procedures, and compliance.",
+            ],
+        },
+        {
+            title: "Expert Member in Ebios Risk Manager",
+            subTitle: {
+                text: "",
+                link: "",
+            },
+            place: "Ebios Risk Manager Club",
+            date: "April 2023 - Present",
+            listTitle: "Missions:",
+            listItems: [
+                "Collaboration on projects and initiatives related to risk management based on the ISO-27005 framework.",
+                "Contributing to ANSSI initiatives by participating in working groups for continuous improvement of the method.",
+                "Risk and security incident scenario modeling.",
+                "Risk management consulting to clients for effective information security risk management.",
+                "Training security teams and stakeholders on using the Ebios Risk Manager method.",
+            ],
+        },
+        
+        {
+            title: "Support for Chief Information Security Officer (CISO)",
+            subTitle: {
+                text: "",
+                link:"",
+            },
+            place: "Webhelp Group & Concentrix",
+            date: "April 2023 - September 2023",
+            listTitle: "Missions:",
+            listItems: [
+                "Collaboration in the development of security policies, standards, and procedures to ensure security compliance.",
+                "Assisting in the implementation and management of internal or external security vulnerability audits.",
+                "Implementation of the EBIOS RM method.",
+                "Coordination with security teams to implement security controls and respond to incidents.",
+                "Contributing to regular evaluation of the organization's security posture and continuous improvement of security practices.",
+            ],
+        },
+        {
+            title: "Cybersecurity Consultant",
+            subTitle: {
+                text: "",
+                link:"",
+            },
+            place: "Internship - Aix-Marseille University",
+            date: "April 2022 - June 2022",
+            listTitle: "Missions:",
+            listItems: [
+                "Designing and developing a tool for assessing the security maturity of an information system.",
+                "Application of the tool to security standards and frameworks (ISO 27001, NIST, CIS).",
+            ],
+        },
+        
+        {
+            title: "Full Stack Web Development (Laravel & Symphony)",
+            subTitle: {
+                text: "",
+                link: "",
+            },
+            place: "Internship - Bureau de Certification Internationale France (BCIFrance)",
+            date: "April 2021 - June 2021",
+            listTitle: "Missions:",
+            listItems: [
+                "Design, creation, and deployment of a responsive showcase website (Front End, Back End). 'www.bcifrance.fr '",
+                "Development of a tool for managing and generating certification contracts in PDF from client data.",
+                "Natural referencing • SEO Social networks",
+            ],
+        },
+        {
+            title: "Full-Stack Web Development (PHP, Symphony, MySQL, HTML/CSS, Javascript, MERN STACK)",
+            subTitle: {
+                text: "",
+                link: "",
+            },
+            place: "Freelance",
+            date: "2018-2021",
+            listTitle: "Missions:",
+            listItems: [
+                "Web design.",
+                "Development (Front End, Back End).",
+                "Project management.",
+                "Natural referencing • SEO Social networks.",
+                "Quality management & testing (unitary, functional)",
+                "Design and management of databases (SQL or NoSQL)",
+            ],
+        },
+        
+    ];
+    const skills = locale == "fr" ? skillsFR : skillsEN;
     return (
         <section className="skillz sub-bg section-padding" id="Cv">
             <div className="container">
                 <div className="d-flex flex-column flex-md-row justify-content-around gap-4">
                     <div className="d-flex flex-column">
-                        <h2 className="fs-2xl">Parcours Académique</h2>
+                        <h2 className="fs-2xl">{locale == "fr" ? "Parcours Académique" :"Academic background" }</h2>
                         <div className="skill-box-container mt-4 d-flex flex-column gap-4">
-                            {skills.slice(0, 4).map((skill, idx) => (
+                            {
+                            skills.slice(0, 4).map((skill, idx) => (
                                 <div
                                     key={idx}
                                     className="skill-box wow fadeInUp"
@@ -216,7 +399,9 @@ function NoName() {
                         </div>
                     </div>
                     <div className="d-flex flex-column">
-                        <h2 className="fs-2xl">Expérience Professionnelle</h2>
+                        <h2 className="fs-2xl">
+                        {locale == "fr" ? "Expérience Professionnelle" :"Professional experience" }
+                        </h2>
                         <div className="skill-box-container mt-4 d-flex flex-column gap-4">
                             {skills.slice(4, 10).map((skill, idx) => (
                                 <div

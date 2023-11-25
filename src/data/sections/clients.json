@@ -3,48 +3,64 @@
         "id": 1,
         "lightImage": "/img/clients/brands/light/01.png",
         "darkImage": "/img/clients/brands/dark/nmap.png",
-        "url": "Scanner de réseaux"
+        "urlfr": "Scanner de réseaux",
+        "urlen": "Network Scanner"
+
     },
     {
         "id": 2,
         "lightImage": "/img/clients/brands/light/02.png",
         "darkImage": "/img/clients/brands/dark/Burpsuite1.png",
-        "url": "Test de sécurité Web"
+        "urlfr": "Test de sécurité Web",
+        "urlen": "Web security Testing"
+
     },
     {
         "id": 3,
         "lightImage": "/img/clients/brands/light/03.png",
         "darkImage": "/img/clients/brands/dark/exploits1.png",
-        "url": "Recherche d'Exploits"
+        "urlfr": "Recherche d'Exploits",
+        "urlen": "Exploits Searching"
+
     },
     {
         "id": 4,
         "lightImage": "/img/clients/brands/light/04.png",
         "darkImage": "/img/clients/brands/dark/ebiosrm1.png",
-        "url": "Méthode de Gestion de risque"
+        "urlfr": "Méthode de Gestion de risque",
+        "urlen": "Risk Management Method"
+
     },
     {
         "id": 5,
         "lightImage": "/img/clients/brands/light/05.png",
         "darkImage": "/img/clients/brands/dark/metasploit1.png",
-        "url": "Outil Test de pénétration"
+        "urlfr": "Outil Test de pénétration",
+        "urlen": "Pentesting Tools"
+
     },
     {
         "id": 6,
         "lightImage": "/img/clients/brands/light/06.png",
         "darkImage": "/img/clients/brands/dark/nessus1.png",
-        "url": "Analyse de sécurité SI"
+        "urlfr": "Analyse de sécurité SI",
+        "urlen": "IT security analysis"
+
     },
     {
         "id": 7,
         "lightImage": "/img/clients/brands/light/07.png",
         "darkImage": "/img/clients/brands/dark/iso-27001-logo.png",
-        "url": "Reférenciel pour SMSI"
+        "urlfr": "Reférenciel pour SMSI",
+        "urlen": "Reference for ISMS"
+
     },
     {
         "id": 8,
         "lightImage": "/img/clients/brands/light/08.png",
         "darkImage": "/img/clients/brands/dark/drata.png",
-        "url": "Outil pour la conformité"
+        "urlfr": "Outil pour la conformité",
+        "urlen": "Compliance Tool"
+
     }
 ]
