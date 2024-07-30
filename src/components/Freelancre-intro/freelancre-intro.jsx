@@ -25,7 +25,7 @@ const FreelancreIntro = () => {
                                 <h6>Hello Friend</h6>
                             </div>
                             <h1 className="cd-headline clip fs-5xl">
-                                Camil Bouteba
+                                Camil Arslan Bouteba
                             </h1>
 
                             <p className="fs-xl mb-4 color-font">
