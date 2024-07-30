@@ -91,10 +91,10 @@ function NoName() {
             listItems: [
                 "Évaluation de l'état actuel de la sécurité de l'information à travers un audit initial pour identifier les écarts par rapport aux exigences de l'ISO 27001.",
                 "Élaboration des processus métiers et des processus de support suivant la norme ISO-9001 pour définir le périmètre du SMSI",
-                "Formation et sensibilisation du personnel aux politiques et procédures de sécurité de l'information.",
-                "Mise en œuvre de solutions telles que les SIEM, DLP, systèmes de gestion des identités et des accès (IAM).",
+                "Implémentation du référenciel du Système de Management de la Sécurité de l'Informations au sein de Global Partner",
+                "Appréciation et Traitement des risques suivant la norme ISO-27005",
                 "Audit technique pour identifier les vulnérabilités dans les système d'information de l'entreprise.",
-                "Implémentation du référenciel du Système de Management de la Sécurité de l'Informations au sein de Global Partner"
+                "Formation et sensibilisation du personnel aux politiques et procédures de sécurité de l'information."
             ],
         },
         {
