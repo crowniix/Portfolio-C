@@ -16,7 +16,7 @@ const Intro3 = () => {
                 <div className="row">
                     <div className="col-lg-5">
                         <div className="img">
-                            <img src="/img/slid/Conference_camil.jpg" alt="" />{" "}
+                            <img src="/img/slid/Conference_camil_1.jpg" alt="" />{" "}
                             <a
                                 href="#contact-form"
                                 className="butn bord curve mt-30 text-center w-100"
