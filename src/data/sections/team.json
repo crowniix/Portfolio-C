@@ -28,26 +28,26 @@
     "skills": [
         {
             "id": 1,
-            "textFR": "Test d'intrusion",
-            "textEN": "Penetration Testing",
+            "textFR": "Gouvernance, risk management & Compliance",
+            "textEN": "Gouvernance, risk management & Compliance",
             "value": "90%"
         },
         {
             "id": 2,
-            "textFR": "ANALYSES DE RISQUES",
-            "textEN": "RISK ANALYZES",
+            "textFR": "NORMES DE CYBERSÉCURITÉ",
+            "textEN": "Cybersecurity standard",
             "value": "86%"
         },
         {
             "id": 1,
-            "textFR": "NORMES DE CYBERSÉCURITÉ",
-            "textEN": "CYBERSECURITY STANDARDS",
+            "textFR": "Test d'intrusion",
+            "textEN": "Penetration Testing",
             "value": "75%"
         },
         {
             "id": 1,
-            "textFR": "CRYPTANALYSE",
-            "textEN": "CRYPTANALYSIS",
+            "textFR": "DROIT DE LA CYBER",
+            "textEN": "CYBER LAW",
             "value": "59%"
         },
         {
@@ -58,8 +58,8 @@
         },
         {
             "id": 2,
-            "textFR": "DROIT DE LA CYBER",
-            "textEN": "CYBER LAW",
+            "textFR": "CRYPTANALYSE",
+            "textEN": "CRYPTANALYSIS",
             "value": "47%"
         }
     ]
