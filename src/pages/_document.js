@@ -15,8 +15,8 @@ class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="keywords"
-            content="creative, cv, designer,  online cv, online resume, powerful 
-            portfolio, professional, professional resume, responsive, resume, vcard, pentester, pentest, cybersecurity"
+            content="Cybersecurity, Penetration Testing, ISO-27001,  PECB, Risk Management, RGPD 
+            portfolio, professional, professional resume, gouvernance, risk management, compliance, pentester, pentest, cybersecurité, consultant cybersécurité, ingénieur cybersécurité"
           />
           <link rel="canonical" href="https://www.linkedin.com/in/camil-arslan/" title="Mon profil LinkedIn"/>
           <meta name="description" content="Cybersecurity Engineer | Cybersecurity Consultant | Full stack web developer." />
