@@ -64,13 +64,13 @@ const FreelancreIntro = () => {
                                     <a href="#0">
                                         <i className="fab fa-facebook-f"></i>
                                     </a>
-                                    <a href="https://twitter.com/uCr0w_" rel="noopener" target="_blank"> 
+                                    <a href="https://twitter.com/uCr0w_" rel="noopener noreferrer"  target="_blank"> 
                                         <i className="fab fa-twitter"></i>
                                     </a>
                                     <a href="#0" >
                                         <i className="fab fa-github"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/in/camil-arslan/" rel="rel=noopener" target="_blank">
+                                    <a href="https://www.linkedin.com/in/camil-arslan/" rel="noopener noreferrer" target="_blank">
                                         <i className="fab fa-linkedin"></i>
                                     </a>
                             </div>
