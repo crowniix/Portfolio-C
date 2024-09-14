@@ -75,8 +75,8 @@ const Team = () => {
                                 </div>
                             </li>
                             <li className="col-6">
-                                    <div>
-                                        <span className="icon  fas fa-terminal" >
+                                <div>
+                                        <span className="icon  fas fa-pen-rule" >
                                             <span className="bord"></span>
                                         </span>
                                     </div>
