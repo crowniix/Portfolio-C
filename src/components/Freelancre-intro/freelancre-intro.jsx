@@ -52,7 +52,7 @@ const FreelancreIntro = () => {
                                 </li>
                                 <li className="d-flex gap-2 align-items-center">
                                 <span className="icon pe-7s-call color-font fs-lg"></span>
-                                    <a href="tel:+33613940182">06 13 94 01 82</a>
+                                    <a href="tel:+33613940182">+33 6 13 94 01 82</a>
                                 </li>
                                 <li className="d-flex gap-2 align-items-center">
                                     <span className="icon pe-7s-map-marker color-font fs-lg"></span>
