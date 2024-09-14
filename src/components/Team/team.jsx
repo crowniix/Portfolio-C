@@ -75,11 +75,11 @@ const Team = () => {
                                 </div>
                             </li>
                             <li className="col-6">
-                                <div>
-                                    <span className="icon fas fa-pencil-ruler">
-                                        <span className="bord"></span>
-                                    </span>
-                                </div>
+                                    <div>
+                                        <span className="icon  fas fa-terminal" >
+                                            <span className="bord"></span>
+                                        </span>
+                                    </div>
                                 <div className="cont">
                                     <h6>  {locale=="en" ? "Creative" : "Créatif"}</h6>
                                 </div>
