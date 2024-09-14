@@ -66,7 +66,7 @@ const Team = () => {
                         <ul className="row" style={{ rowGap: 75 }}>
                             <li className="col-6">
                                 <div>
-                                <span className="icon pe-7s-help2">
+                                <span className="icon pe-7s-help2 pe-spin">
                                         <span className="bord"></span>
                                     </span>
                                 </div>
@@ -76,7 +76,7 @@ const Team = () => {
                             </li>
                             <li className="col-6">
                                 <div>
-                                    <span className="icon pe-7s-help2">
+                                    <span className="icon pe-7s-help2 pe-spin">
                                         <span className="bord"></span>
                                     </span>
                                 </div>
