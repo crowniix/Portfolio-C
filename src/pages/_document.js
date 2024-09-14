@@ -19,11 +19,12 @@ class MyDocument extends Document {
             portfolio, professional, professional resume, responsive, resume, vcard, pentester, pentest, cybersecurity"
           />
           <link rel="canonical" href="https://www.linkedin.com/in/camil-arslan/" title="Mon profil LinkedIn"/>
-         <meta name="description" content="Cybersecurity Engineer | Cybersecurity Consultant | Full stack web developer." />
-          <meta name="developer" content="MR Camil R3800T"/>
-          <meta name="author" content="MR Camil R3800T" />
+          <meta name="description" content="Cybersecurity Engineer | Cybersecurity Consultant | Full stack web developer." />
+          <meta name="developer" content="R3800T"/>
+          <meta name="author" content="R3800T" />
           <meta property="og:title" content="Camil Bouteba • Portfolio" />
-          <meta property="og:description" content="Etudiant Ingénieur & Consultant CyberSécurité " />
+          <meta property="og:description" content="Consultant & Ingénieur CyberSécurité" />
+          <meta property="og:type" content="website" />
           <link rel="shortcut icon" href="/img/favicon.svg" />
           <link
             href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
