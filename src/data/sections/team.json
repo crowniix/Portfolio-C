@@ -28,9 +28,9 @@
     "skills": [
         {
             "id": 1,
-            "textFR": "Gouvernance, risk management & Compliance",
+            "textFR": "Cybersécurité organisationnelle (GRC)",
             "textEN": "Gouvernance, risk management & Compliance",
-            "value": "95%"
+            "value": "90%"
         },
         {
             "id": 2,
