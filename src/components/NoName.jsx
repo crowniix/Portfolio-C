@@ -420,7 +420,7 @@ function NoName() {
                         <h2 className="fs-2xl">{locale == "fr" ? "Parcours Académique" :"Academic background" }</h2>
                         <div className="skill-box-container mt-4 d-flex flex-column gap-4">
                             {
-                            skills.slice(0, 4).map((skill, idx) => (
+                            skills.slice(0, 6).map((skill, idx) => (
                                 <div
                                     key={idx}
                                     className="skill-box wow fadeInUp"
@@ -456,11 +456,11 @@ function NoName() {
                         {locale == "fr" ? "Expérience Professionnelle" :"Professional experience" }
                         </h2>
                         <div className="skill-box-container mt-4 d-flex flex-column gap-4">
-                            {skills.slice(4, 10).map((skill, idx) => (
+                            {skills.slice(6, 12).map((skill, idx) => (
                                 <div
                                     key={idx}
                                     className="skill-box wow fadeInUp"
-                                    data-wow-delay={`${((idx + 1) * 2) / 10}s`}
+                                    data-wow-delay={`${((idx + 1) * 2) / 12}s`}
                                 >
                                     <h3 className="fs-xl">{skill.title}</h3>
                                     <div className="d-flex gap-2 fs-sm">
