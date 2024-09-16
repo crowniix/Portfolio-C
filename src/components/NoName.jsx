@@ -343,7 +343,7 @@ function NoName() {
             ],
         },
         {
-            title: "Governance, Risk Management & Compliance Consultant & Intrusion Tester",
+            title: "Cybersecurity Engineer and Consultant",
             subTitle: {
                 text: "",
                 link: "",
