@@ -5,6 +5,42 @@ function NoName() {
     const { locale } = router;
     const skillsFR = [
         {
+            title: "Certification & Formation RGPD (Délégué à la Protection des Données)",
+            subTitle: {
+                text: "",
+                link: "",
+            },
+            place: "PECB",
+            date: "Aout 2024",
+            listTitle: "Acquis :",
+            listItems: [
+                "Connaissance approfondie du RGPD, y compris ses principes, ses obligations et ses impacts sur les organisations ; ",
+                "Maîtrise des rôles et responsabilités d’un Délégué à la Protection des Données (DPO) ;",
+                "identification et la gestion des risques liés à l'impact des données personnelles (AIPD) ;",
+                "Sensibilisation et formation des équipes au RGPD et aux bonnes pratiques de gestion des données personnelles ;",
+                "Rédaction de rapports de conformité et recommandations pour améliorer les pratiques de gestion des données personnelles.",
+            ],
+            
+        },
+        {
+            title: "Certification & Formation ISO-27005 & EBIOS Risk Manager",
+            subTitle: {
+                text: "",
+                link: "",
+            },
+            place: "PECB",
+            date: "Avril 2024",
+            listTitle: "Acquis :",
+            listItems: [
+                "Maîtrise des exigences, des principes et des processus de la norme ISO 27005 pour la gestion des risques SI; ",
+                "Identification, évaluation et gestion des risques à la sécurité de l'information avec la méthodologies EBIOS RM ;",
+                "Cartographier les risques, évaluation de la criticité et suivis de l'évolution en continue ;",
+                "Développement de plans de traitement des risques et définition de mesures correctives pour améliorer du SI;",
+                "Élaboration de politiques et procédures de gestion des risques, alignées sur les exigences des normes ISO ;",
+            ],
+            
+        },
+        {
             title: "Certification & Formation Cloud Associate & Junior Penetration Tester",
             subTitle: {
                 text: "",
@@ -22,10 +58,9 @@ function NoName() {
                 "Compréhension des lois et des réglementations en matière de tests d'intrusion éthiques et respect des périmetres exigés ;",
             ],
            
-            
         },
         {
-            title: "Certification & Formation ISO-27001 Foundation & Lead Auditor",
+            title: "Certification & Formation ISO-27001 Foundation, Lead Implementer & Lead Auditor",
             subTitle: {
                 text: "",
                 link: "",
@@ -35,10 +70,10 @@ function NoName() {
             listTitle: "Acquis :",
             listItems: [
                 "Connaissance approfondie de la norme ISO 27001, y compris ses exigences, ses principes et ses processus ; ",
-                "Identification, évaluation et gestion des risques liés à la sécurité de l'information au sein d'une organisation (ISO-27005) ;",
-                "Gestion de la conformité des organisations aux exigenceS ISO-27001 et d'autres reglemenationS liées au SI ;",
-                "Compétences en planification, en conduite et en gestion d'audits de sécurité de l'information ;",
-                "Rédaction de rapports d'audit complets avec présentation de résultat d'audit clairs et précis.",
+                "Identification, évaluation et gestion des risques liés à la sécurité de l'information au sein d'une organisation ;",
+                "Conception et mise en place de politiques et de procédures de sécurité conformes à la norme ISO-27001  ;",
+                "Développement de plans de traitement des risques et définition de mesures correctives pour améliorer du SI ;",
+                "Rédaction rapports de conformité, incluant la présentation de solutions pour combler les écarts identifiés.",
             ],
             
         },
