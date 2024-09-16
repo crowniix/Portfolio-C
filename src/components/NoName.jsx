@@ -60,7 +60,7 @@ function NoName() {
            
         },
         {
-            title: "Certification & Formation ISO-27001 Foundation, Lead Implementer & Lead Auditor",
+            title: "Certification & Formation ISO-27001 Foundation, Lead Implementer & Auditor",
             subTitle: {
                 text: "",
                 link: "",
@@ -237,6 +237,40 @@ function NoName() {
 
     const skillsEN = [
         {
+            title: "Certification & Training GDPR (Data Protection Officer)",
+            subTitle: {
+                text: "",
+                link: "",
+            },
+            place: "PECB",
+            date: "Aout 2024",
+            listTitle: "Skills Acquired:",
+            listItems: [
+                "Thorough knowledge of GDPR, including its principles, obligations, and impact on organizations ; ",
+                "Mastery of the roles and responsibilities of a Data Protection Officer (DPO) ;",
+                "Identification and management of risks related to data protection impact assessments (DPIA) ;",
+                "Awareness and training of teams on GDPR and best practices for managing personal data ;",
+                "Drafting compliance reports and providing recommendations to improve personal data management practices.",
+            ],
+        },        
+        {
+            title: "Certification & Training ISO-27005 & EBIOS Risk Manager",
+            subTitle: {
+                text: "",
+                link: "",
+            },
+            place: "PECB",
+            date: "Avril 2024",
+            listTitle: "Skills Acquired:",
+            listItems: [
+                "Mastery of the requirements, principles, and processes of the ISO 27005 standard for information security risk management ; ",
+                "Identification, evaluation, and management of information security risks using the EBIOS RM methodology ;",
+                "Risk mapping, criticality assessment, and continuous monitoring of risk evolution ;",
+                "Development of risk treatment plans and definition of corrective measures to improve information security ;",
+                "Development of risk management policies and procedures aligned with ISO standards.",
+            ],
+        },  
+        {
             title: "Certification & Training in Cloud Associate & Junior Penetration Tester",
             subTitle: {
                 text: "",
@@ -255,7 +289,7 @@ function NoName() {
             ],
         },
         {
-            title: "Certification & Training in ISO-27001 Foundation & Lead Auditor",
+            title: "Certification & Training ISO-27001 Foundation, Lead Implementer & Auditor",
             subTitle: {
                 text: "",
                 link: "",
@@ -264,11 +298,11 @@ function NoName() {
             date: "April 2023",
             listTitle: "Skills Acquired:",
             listItems: [
-                "Thorough knowledge of ISO 27001 standard, including its requirements, principles, and processes;",
-                "Identification, assessment, and management of information security-related risks within an organization (ISO-27005);",
-                "Management of organizational compliance with ISO-27001 requirements and other information security-related regulations;",
-                "Skills in planning, conducting, and managing information security audits;",
-                "Drafting comprehensive audit reports with clear and precise audit result presentations.",
+                "Thorough knowledge of he ISO 27001 standard, including its requirements, principles, and processes ; ",
+                "Identification, evaluation, and management of information security risks within an organization ;",
+                "Design and implementation of security policies and procedures in compliance with ISO 27001 standards ;",
+                "Development of risk treatment plans and definition of corrective measures to improve information security systems ;",
+                "Drafting compliance reports, including presenting solutions to address identified gaps.",
             ],
         },        
         {
@@ -306,6 +340,24 @@ function NoName() {
                 "Operating systems (Linux, Windows, Memory and File Management)",
                 "Network administration (OSI Model, Cisco, Socket Programming)",
                 "Graph theory.",
+            ],
+        },
+        {
+            title: "Governance, Risk Management & Compliance Consultant & Intrusion Tester",
+            subTitle: {
+                text: "",
+                link: "",
+            },
+            place: "Global Partner",
+            date: "January 2024 - September 2024",
+            listTitle: "Missions:",
+            listItems: [
+                "Assessment of the current state of information security through an initial audit to identify gaps in relation to ISO 27001 requirements.",
+                "Development of business and support processes in line with ISO-9001 to define the scope of the ISMS.",
+                "Implementation of the Information Security Management System (ISMS) framework within Global Partner.",
+                "Risk assessment and treatment following the ISO-27005 standard.",
+                "Technical audit to identify vulnerabilities in the company's information systems.",
+                "Training and awareness programs for staff on information security policies and procedures.",
             ],
         },
         {
