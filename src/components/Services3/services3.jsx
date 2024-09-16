@@ -108,9 +108,7 @@ const Services3 = () => {
                             </span>
                             <h5> {t["Title-Consultation"]}</h5>
                             
-                            <p style={{ marginTop: "10px", color : "white"}}>
-                            {t["p1-Consultation"]}
-                             </p>
+                            
                             <p style={{ marginTop: "10px", color : "white"}}>
                             {t["p2-Consultation"]}
                             </p>
