@@ -28,20 +28,20 @@
     "skills": [
         {
             "id": 1,
-            "textFR": "Cybersécurité organisationnelle",
-            "textEN": "organizational cybersecurity",
+            "textFR": "CYBERSECURITE ORGANISATIONNELLE",
+            "textEN": "ORGANIZATIONAL CYBERSECURITY",
             "value": "90%"
         },
         {
             "id": 2,
             "textFR": "NORMES DE CYBERSÉCURITÉ",
-            "textEN": "Cybersecurity standard",
+            "textEN": "CYBERSECURITY STANDARD",
             "value": "86%"
         },
         {
             "id": 1,
-            "textFR": "Test d'intrusion",
-            "textEN": "Penetration Testing",
+            "textFR": "TEST D'INTRUSION",
+            "textEN": "PENETRATION TESTING",
             "value": "75%"
         },
         {

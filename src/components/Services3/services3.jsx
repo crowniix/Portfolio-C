@@ -107,8 +107,7 @@ const Services3 = () => {
                             <img style={{height :"205px"}} src="/img/icon/Filled_Office_Security.svg" alt="" />
                             </span>
                             <h5> {t["Title-Consultation"]}</h5>
-                            
-                            
+        
                             <p style={{ marginTop: "10px", color : "white"}}>
                             {t["p2-Consultation"]}
                             </p>
